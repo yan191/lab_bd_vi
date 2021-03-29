@@ -15,4 +15,29 @@ public class AppTest {
 		Calculadora calculadora = new Calculadora();
 		assertEquals(0.5, calculadora.seno(4, 8));
 	}
+	
+	@Test
+	public void senoZeroTest() throws Exception {
+		try {
+			Calculadora calculadora = new Calculadora();
+            float resultado = calculadora.seno(0, 8);
+			fail("Teste falhou: calculadora retornou valor mesmo com número zero");
+		} 
+		catch (Exception error) {
+			assertEquals( "Não pode ter zero!", error.getMessage());
+		}
+
+	}
+	
+	@Test
+	public void senoNegativoTest() throws Exception {
+		try {
+			Calculadora calculadora = new Calculadora();
+            float resultado = calculadora.seno(-4, -8);
+			fail("Teste falhou: calculadora retornou valor mesmo com número negativo");
+		} 
+		catch (Exception error) {
+			assertEquals( "Não pode ser negativo!", error.getMessage());
+		}
+	}
 }
