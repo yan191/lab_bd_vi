@@ -5,4 +5,6 @@ RA: 1460281713043
 
 # Prática 01
 
-Tema escolhido: Seno
+Tema escolhido: Seno (Cateto Oposto / hipotenusa)
+
+## [Vídeo de Apresentação](https://www.youtube.com/watch?v=VwW9Db5xVgk)
