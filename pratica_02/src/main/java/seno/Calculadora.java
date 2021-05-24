@@ -4,8 +4,6 @@ import java.math.MathContext;
 
 public class Calculadora{
 	public BigDecimal seno(BigDecimal x, BigDecimal y)  throws Exception {
-
-		/*
 		BigDecimal catetoLimiteSuperior = new BigDecimal(50);
 		BigDecimal catetoLimiteInferior = new BigDecimal(1);
 		BigDecimal hipotenusaLimiteSuperior = new BigDecimal(100);
@@ -21,7 +19,7 @@ public class Calculadora{
 		}
 		if(y.compareTo(hipotenusaLimiteInferior) == -1){ 
 			throw new Exception("Hipotenusa deve ser maior que 70!");	
-		}*/
+		}
 		return x.divide(y, MathContext.DECIMAL128);
 	}
 }
