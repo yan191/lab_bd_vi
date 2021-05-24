@@ -9,4 +9,4 @@ Tema escolhido: Seno (Cateto Oposto / hipotenusa)
 
 Análise de Valores Limites
 
-## [Vídeo de Apresentação](https://www.youtube.com/)
+## [Vídeo de Apresentação](https://youtu.be/UERHt0Tcjb8)
