@@ -16,7 +16,7 @@ public class AppTest {
 		Calculadora calculadora = new Calculadora();
 		assertEquals(new BigDecimal("0.1764705882352941176470588235294118"), calculadora.seno(new BigDecimal(15), new BigDecimal(85)));
 	}
-	/*
+
 	@Test
 	public void senoTestCatetoValidoInferior() throws Exception {
 		Calculadora calculadora = new Calculadora();
@@ -88,5 +88,4 @@ public class AppTest {
 			assertEquals( "Hipotenusa deve ser menor que 100!", error.getMessage());
 		}
 	}
-	*/
 }
