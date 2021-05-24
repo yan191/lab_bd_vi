@@ -22,6 +22,6 @@ public class Calculadora{
 		if(y.compareTo(hipotenusaLimiteInferior) == -1){ 
 			throw new Exception("Hipotenusa deve ser maior que 70!");	
 		}*/
-		return new BigDecimal(0); //x.divide(y, MathContext.DECIMAL128);
+		return x.divide(y, MathContext.DECIMAL128);
 	}
 }
